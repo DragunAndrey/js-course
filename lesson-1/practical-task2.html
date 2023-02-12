@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical task 2</title>
+</head>
+<body>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+ let step = "|_";
+let calc = 1;
+while (calc < 10) {
+    console.log(step);
+  step += "|_";
+  calc++;
+}
+
+let wbPlates = "\u2B1C \u2B1B \u2B1C \u2B1B \u2B1C \u2B1B \u2B1C \u2B1B \n";
+let bwPlates = "\u2B1B \u2B1C \u2B1B \u2B1C \u2B1B \u2B1C \u2B1B \u2B1C \n";
+let chessField = "";
+let i;
+let j;
+for (i = 0; i < 4; i++) {
+    chessField += wbPlates;
+  
+  for (j = 0; j < 1 ; j++) {
+    chessField += bwPlates;
+  } 
+}
+console.log(chessField);
+
+
+
+    </script>
+</body>
+</html>
